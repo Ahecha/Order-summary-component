@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Red Hat display", sans-serif;
+}
+
+body {
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-color:  hsl(228, 100%, 86%);
+    background-repeat: no-repeat;
+}
+
+.text-container {
+    background-color: white;
+    text-align: center;
+}
+
+img {
+width: 100%;
+  max-width: auto;
+  max-height: auto;
+}
+
+.plan-container {
+    display: flex;
+    background-color:hsl(225, 100%, 98%);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
