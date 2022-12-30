@@ -129,18 +129,19 @@ h2 {
 }
 
 @media (min-width: 1050px) {
-    
     body {
         background-image: url(./images/pattern-background-desktop.svg);
         padding-top: 5%;
+        
     
     }
     
     main {
-        width: 30%;
+        width: 25%;
         max-width: auto;
     
     }
+    
     
     img {
         width: fit-content;
@@ -148,11 +149,11 @@ h2 {
     }
     
     .text-container {
-        padding: 5% 2%;
+        padding: 5% 5%;
     }
     
     p {
-        font-size: 11px;
+        font-size: 16px;
     }
     
     .plan-container {
@@ -165,16 +166,17 @@ h2 {
     }
     
     h2, .change-button {
-        font-size: 10px;
+        font-size: 15px;
     }
     
     
     .buttons {
-        padding-top: 9%; 
+        padding: 9% 0 6% 0;
+        
     }
     
     .pay {
         font-weight: 400;
     }
-    
+      
     }
