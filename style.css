@@ -127,3 +127,54 @@ h2 {
     color: black;
     cursor: pointer;
 }
+
+@media (min-width: 1050px) {
+    
+    body {
+        background-image: url(./images/pattern-background-desktop.svg);
+        padding-top: 5%;
+    
+    }
+    
+    main {
+        width: 30%;
+        max-width: auto;
+    
+    }
+    
+    img {
+        width: fit-content;
+        max-width: 100%;
+    }
+    
+    .text-container {
+        padding: 5% 2%;
+    }
+    
+    p {
+        font-size: 11px;
+    }
+    
+    .plan-container {
+        padding: 0;
+        border-radius: 10px;
+    }
+    
+    .anual-container {
+        padding-top: 3%;
+    }
+    
+    h2, .change-button {
+        font-size: 10px;
+    }
+    
+    
+    .buttons {
+        padding-top: 9%; 
+    }
+    
+    .pay {
+        font-weight: 400;
+    }
+    
+    }
